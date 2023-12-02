@@ -11,8 +11,8 @@
 void line_follower(int argc, char *argv[]) 
 {
   int ch = 0;
-  int irL,irR;  // status of infrared sensors
-  int lfL,lfR;  // status of line sensors
+  int irL,irR;  //status of infrared sensors
+  int lfL,lfR;  //status of line sensors
 
   // Drive forward initially
   initio_DriveForward(70);
