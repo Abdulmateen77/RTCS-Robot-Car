@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
   nodelay(mainwin, TRUE);       // curses: set getch() as non-blocking 
   keypad(mainwin, TRUE);        // curses: enable detection of cursor and other keys
 
-  initio_Init(); // initio: init the library
+  initio_Init(); //initio: init the library
 
   line_follower(argc, argv);
 
