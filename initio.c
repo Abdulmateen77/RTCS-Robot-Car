@@ -15,7 +15,7 @@ void line_follower(int argc, char *argv[])
   int lfL,lfR;  //status of line sensors
 
   // Drive forward initially
-  initio_DriveForward(70);
+  initio_DriveForward();
 
   while (ch != 'q') {
     mvprintw(1, 1, "%s: Press 'q' to end program", argv[0]);
