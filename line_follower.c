@@ -26,17 +26,17 @@ void line_follower(int argc, char *argv[])
     lfL = initio_IrLineLeft();
     lfR = initio_IrLineRight();
 
-    // Obstacle detected by infrared sensors
+    //Obstacle detected by infrared sensors
     if (irL != 0 || irR != 0) {
       mvprintw(3, 1, "Action 1: Stop (IR sensors: %d, %d)     ", irL, irR);
       initio_DriveForward(0); // Stop
     }
-    // No obstacle ahead, focus on line following
+    //No obstacle ahead, focus on line following
     else if (lfL == 0 && lfR == 0) { 
       mvprintw(3, 1, "Action 2: Straight (Line sensors: %d, %d)    ", lfL, lfR);
       initio_DriveForward(70);
     }
-    // Car is too much on the right
+    //Car is too much on the right
     else if (lfR != 0) {
       mvprintw(3, 1, "Action 3: Spin left (Line sensors: %d, %d)    ", lfL, lfR);
       initio_SpinLeft(100); // Spin left at Full speed
