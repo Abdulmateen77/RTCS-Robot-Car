@@ -1,5 +1,5 @@
 #
-# Simple Makefile for compiling programs for initio robot car 
+#Simple Makefile for compiling programs for initio robot car 
 #
 SHELL	= bash
 GCC	= gcc
