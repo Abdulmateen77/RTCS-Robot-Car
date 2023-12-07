@@ -3,10 +3,10 @@
 #include <curses.h>
 
 //======================================================================
-// line_follower():
-// Simple program to test infrared line sensors:
-// Drive along a black line. The black line is bordered on both sides
-// with a white line to ensure contrast for the line sensors.
+//line_follower():
+//Simple program to test infrared line sensors:
+//Drive along a black line. The black line is bordered on both sides
+//with a white line to ensure contrast for the line sensors.
 //======================================================================
 void line_follower(int argc, char *argv[]) 
 {
