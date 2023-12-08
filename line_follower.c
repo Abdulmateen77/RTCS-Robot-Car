@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 
   line_follower(argc, argv);
 
-  initio_Cleanup();  // initio: cleanup the library (reset robot car)
-  endwin();           // curses: cleanup the library
+  initio_Cleanup();  //initio: cleanup the library (reset robot car)
+  endwin();           //curses: cleanup the library
   return EXIT_SUCCESS;
 }
