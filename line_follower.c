@@ -41,12 +41,12 @@ void line_follower(int argc, char *argv[])
       mvprintw(3, 1, "Action 3: Spin left (Line sensors: %d, %d)    ", lfL, lfR);
       initio_SpinLeft(100); // Spin left at Full speed
     }
-    // Car is too much on the left
+    //Car is too much on the left
     else if (lfL != 0) {
       mvprintw(3, 1, "Action 4: Spin right (Line sensors: %d, %d)    ", lfL, lfR);
       initio_SpinRight(100); // Spin right at Full speed
     }
-    // Lost the line
+    //Lost the line
     else {
       mvprintw(3, 1, "Lost my line (Line sensors: %d, %d)        ", lfL, lfR);
       initio_DriveReverse(70); // Stop and reverse
@@ -63,7 +63,7 @@ void line_follower(int argc, char *argv[])
 }
 
 //======================================================================
-// main(): initialization of libraries, etc
+//main(): initialization of libraries, etc
 //======================================================================
 int main(int argc, char *argv[])
 {
