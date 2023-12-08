@@ -52,12 +52,12 @@ void line_follower(int argc, char *argv[])
       initio_DriveReverse(70); // Stop and reverse
     }
 
-    // Read user input
+    //Read user input
     ch = getch();
     if (ch != ERR)
       mvprintw(2, 1, "Key code: '%c' (%d)", ch, ch);
     refresh();  // curses
-  } // while
+  } //while
 
   return;
 }
