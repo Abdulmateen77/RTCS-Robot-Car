@@ -49,7 +49,7 @@ void line_follower(int argc, char *argv[])
     //Lost the line
     else {
       mvprintw(3, 1, "Lost my line (Line sensors: %d, %d)        ", lfL, lfR);
-      initio_DriveReverse(70); // Stop and reverse
+      initio_DriveReverse(70); //Stop and reverse
     }
 
     //Read user input
