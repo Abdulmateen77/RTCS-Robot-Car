@@ -56,7 +56,7 @@ void line_follower(int argc, char *argv[])
     ch = getch();
     if (ch != ERR)
       mvprintw(2, 1, "Key code: '%c' (%d)", ch, ch);
-    refresh();  // curses
+    refresh();  //curses
   } //while
 
   return;
