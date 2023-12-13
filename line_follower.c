@@ -44,7 +44,7 @@ void line_follower(int argc, char *argv[])
     //Car is too much on the left
     else if (lfL != 0) {
       mvprintw(3, 1, "Action 4: Spin right (Line sensors: %d, %d)    ", lfL, lfR);
-      initio_SpinRight(100); // Spin right at Full speed
+      initio_SpinRight(100); //Spin right at Full speed
     }
     //Lost the line
     else {
