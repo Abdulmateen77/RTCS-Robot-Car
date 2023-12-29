@@ -1,4 +1,3 @@
-#
 #Simple Makefile for compiling programs for initio robot car 
 #
 SHELL	= bash
