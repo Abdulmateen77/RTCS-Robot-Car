@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
   WINDOW *mainwin = initscr();  //curses: init screen
   noecho();                    //curses: prevent the key being echoed
   cbreak();                    //curses: disable line buffering 
-  nodelay(mainwin, TRUE);       //curses: set getch() as non-blocking 
+  nodelay(mainwin, TRUE);       //curses: set getch() as  non-blocking 
   keypad(mainwin, TRUE);        //curses: enable detection of cursor and other keys
 
   initio_Init(); //initio: init the library
