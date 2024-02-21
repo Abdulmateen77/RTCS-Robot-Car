@@ -2,6 +2,7 @@
 
 # Line Follower Robot Car
 
+
 ## Overview
 
 This repository contains the code for a line follower robot car. The robot car is designed to autonomously follow a black line using infrared line sensors. The project provides a basic implementation of a line-following algorithm and includes options for optimization and further development.
