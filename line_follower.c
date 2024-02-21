@@ -2,7 +2,6 @@
 #include <initio.h>
 #include <curses.h>
 
-
 //======================================================================
 //line_follower():
 //Simple program to test infrared line sensors:
